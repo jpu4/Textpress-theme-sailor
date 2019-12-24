@@ -1,9 +1,13 @@
 # Textpress-theme-sailor
-Bootstrapmade template converted to a theme for Textpress
+
+Bootstrapmade template converted to a theme for [Textpress](https://github.com/jpu4/TextPress)
 
 Theme Name: Sailor
+
 Theme URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+
 Author: BootstrapMade
+
 Author URL: https://bootstrapmade.com
 
 All the original demo content and images are intact. 
