@@ -5,6 +5,7 @@ if( count($articles) < 1 ){
 }
 else{
   foreach($articles as $article){
+      // if ($archive->getStatus()=="published"){ // for use if your version of textpress supports post status
 ?>
 <article class="post">
   <header>
@@ -27,6 +28,7 @@ else{
   </div>
 </article>
 <?php
+  //}
   }
 }
 ?>

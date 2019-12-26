@@ -1,5 +1,5 @@
-<h3>About James</h3>
-<img src="<?php echo $global['assets.prefix'];?>/themes/Sailor/img/dummies/dummy-1200.jpg" alt=""
+<h3>About</h3>
+<img src="/themes/Sailor/img/dummies/dummy-1200.jpg" alt=""
   class="img-responsive" />
 
 <p>

@@ -24,6 +24,7 @@ if($articles) {
     $author->addChild("name","John Doe");
     $author->addChild("email","johndoe@example.com");
     foreach($articles as $article) {
+      // if ($archive->getStatus()=="published"){ // for use if your version of textpress supports post status
         $entry = $xml->addChild('entry');
         $entry->addChild('title', $article->getTitle());
         $link = $entry->addChild('link');
@@ -33,6 +34,7 @@ if($articles) {
         $entry->summary = "<![CDATA[" . substr(strip_tags($article->getContent()), 0,300) . "]]>";
         $entry->summary->addAttribute("type","html");
         $entry->addChild('updated', date('c', strtotime($article->getDate())));
+        // }
     }
     // output xml
     echo $xml->asXML();
