@@ -88,22 +88,21 @@
 	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/jquery.min.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/modernizr.custom.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/jquery.easing.1.3.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/bootstrap.min.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/plugins/flexslider/jquery.flexslider-min.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/plugins/flexslider/flexslider.config.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/jquery.appear.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/stellar.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/classie.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/uisearch.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/jquery.cubeportfolio.min.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/google-code-prettify/prettify.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/animate.js"></script>
-	<script src="<?php echo $global['assets.prefix'];?>/themes/Sailor/js/custom.js"></script>
+	<script src="/themes/Sailor/js/jquery.min.js"></script>
+	<script src="/themes/Sailor/js/modernizr.custom.js"></script>
+	<script src="/themes/Sailor/js/jquery.easing.1.3.js"></script>
+	<script src="/themes/Sailor/js/bootstrap.min.js"></script>
+	<script src="/themes/Sailor/plugins/flexslider/jquery.flexslider-min.js"></script>
+	<script src="/themes/Sailor/plugins/flexslider/flexslider.config.js"></script>
+	<script src="/themes/Sailor/js/jquery.appear.js"></script>
+	<script src="/themes/Sailor/js/stellar.js"></script>
+	<script src="/themes/Sailor/js/classie.js"></script>
+	<script src="/themes/Sailor/js/uisearch.js"></script>
+	<script src="/themes/Sailor/js/jquery.cubeportfolio.min.js"></script>
+	<script src="/themes/Sailor/js/google-code-prettify/prettify.js"></script>
+	<script src="/themes/Sailor/js/animate.js"></script>
+	<script src="/themes/Sailor/js/custom.js"></script>
 
-	<script id="dsq-count-scr" src="//james-ussery-me.disqus.com/count.js" async></script>
 </body>
 
 </html>

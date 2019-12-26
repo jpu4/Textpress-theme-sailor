@@ -13,16 +13,16 @@
 	<meta name="description" content="Bootstrap 3 template for corporate business" />
     <meta name="author" content="<?php echo $global['author.name']; ?>">  
 	<!-- css -->
-	<link href="<?php echo $global['base.url'];?>/<?php echo $global['assets.prefix'];?>/themes/Sailor/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="<?php echo $global['base.url'];?>/<?php echo $global['assets.prefix'];?>/themes/Sailor/plugins/flexslider/flexslider.css" rel="stylesheet" media="screen" />
-	<link href="<?php echo $global['base.url'];?>/<?php echo $global['assets.prefix'];?>/themes/Sailor/css/cubeportfolio.min.css" rel="stylesheet" />
-	<link href="<?php echo $global['base.url'];?>/<?php echo $global['assets.prefix'];?>/themes/Sailor/css/style.css" rel="stylesheet" />
+	<link href="/themes/Sailor/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/themes/Sailor/plugins/flexslider/flexslider.css" rel="stylesheet" media="screen" />
+	<link href="/themes/Sailor/css/cubeportfolio.min.css" rel="stylesheet" />
+	<link href="/themes/Sailor/css/style.css" rel="stylesheet" />
 
 	<!-- Theme skin -->
-	<link id="t-colors" href="<?php echo $global['base.url'];?>/<?php echo $global['assets.prefix'];?>/themes/Sailor/skins/default.css" rel="stylesheet" />
+	<link id="t-colors" href="/themes/Sailor/skins/default.css" rel="stylesheet" />
 
 	<!-- boxed bg -->
-	<link id="bodybg" href="<?php echo $global['base.url'];?>/<?php echo $global['assets.prefix'];?>/themes/Sailor/bodybg/bg1.css" rel="stylesheet" type="text/css" />
+	<link id="bodybg" href="/themes/Sailor/bodybg/bg1.css" rel="stylesheet" type="text/css" />
 
 	<!-- =======================================================
     Theme Name: Sailor
@@ -87,45 +87,69 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-						<a class="navbar-brand" href="<?php echo $global['base.url'];?>"><img src="<?php echo $global['assets.prefix'];?>/themes/Sailor/img/logo.png" alt="" width="199" height="52" /></a>
+						<a class="navbar-brand" href="/"><img src="/themes/Sailor/img/logo.png" alt="" width="199" height="52" /></a>
 					</div>
 					<div class="navbar-collapse collapse ">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="<?php echo $global['base.url'];?>">Home</a></li>
+							<li class="active"><a href="/">Home</a></li>
 							<li class="dropdown">
-								<a href="<?php echo $global['base.url'];?>/#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Features <i class="fa fa-angle-down"></i></a>
+								<a href="/#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Features <i class="fa fa-angle-down"></i></a>
 								<ul class="dropdown-menu">
-									<li><a href="<?php echo $global['base.url'];?>/typography">Typography</a></li>
-									<li><a href="<?php echo $global['base.url'];?>/components">Components</a></li>
-									<li><a href="<?php echo $global['base.url'];?>/pricing-box">Pricing box</a></li>
+									<li><a href="/typography">Typography</a></li>
+									<li><a href="/components">Components</a></li>
+									<li><a href="/pricing-box">Pricing box</a></li>
 									<li class="dropdown-submenu">
-										<a href="<?php echo $global['base.url'];?>/#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown">Pages</a>
+										<a href="/#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown">Pages</a>
 										<ul class="dropdown-menu">
-											<li><a href="<?php echo $global['base.url'];?>/fullwidth">Full width</a></li>
-											<li><a href="<?php echo $global['base.url'];?>/right-sidebar">Right sidebar</a></li>
-											<li><a href="<?php echo $global['base.url'];?>/left-sidebar">Left sidebar</a></li>
-											<li><a href="<?php echo $global['base.url'];?>/comingsoon">Coming soon</a></li>
-											<li><a href="<?php echo $global['base.url'];?>/search-result">Search result</a></li>
-											<li><a href="<?php echo $global['base.url'];?>/404">404</a></li>
-											<li><a href="<?php echo $global['base.url'];?>/register">Register</a></li>
-											<li><a href="<?php echo $global['base.url'];?>/login">Login</a></li>
+											<li><a href="/fullwidth">Full width</a></li>
+											<li><a href="/right-sidebar">Right sidebar</a></li>
+											<li><a href="/left-sidebar">Left sidebar</a></li>
+											<li><a href="/comingsoon">Coming soon</a></li>
+											<li><a href="/search-result">Search result</a></li>
+											<li><a href="/404">404</a></li>
+											<li><a href="/register">Register</a></li>
+											<li><a href="/login">Login</a></li>
 										</ul>
 									</li>
 								</ul>
 							</li>
-							<li><a href="<?php echo $global['base.url'];?>/portfolio">Portfolio</a></li>
-							<li class="dropdown"><a href="<?php echo $global['base.url'];?>/#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Blog <i class="fa fa-angle-down"></i></a>
+							<li><a href="/portfolio">Portfolio</a></li>
+							<li class="dropdown"><a href="/#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Blog <i class="fa fa-angle-down"></i></a>
 								<ul class="dropdown-menu">
-									<li><a href="<?php echo $global['base.url'];?>/blog-rightsidebar">Blog right sidebar</a></li>
-									<li><a href="<?php echo $global['base.url'];?>/blog-leftsidebar">Blog left sidebar</a></li>
-									<li><a href="<?php echo $global['base.url'];?>/post-rightsidebar">Post right sidebar</a></li>
-									<li><a href="<?php echo $global['base.url'];?>/post-leftsidebar">Post left sidebar</a></li>
+									<li><a href="/blog-rightsidebar">Blog right sidebar</a></li>
+									<li><a href="/blog-leftsidebar">Blog left sidebar</a></li>
+									<li><a href="/post-rightsidebar">Post right sidebar</a></li>
+									<li><a href="/post-leftsidebar">Post left sidebar</a></li>
 								</ul>
 							</li>
-							<li><a href="<?php echo $global['base.url'];?>/contact">Contact</a></li>
+							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</header>
 		<!-- end header -->
+<?php
+	$root_domain = $global['base.url']; 
+	$breadcrumb ="        <section id='inner-headline'>";
+	$breadcrumb .="          <div class='container'>";
+	$breadcrumb .="              <div class='row'>";
+	$breadcrumb .="                 <div class='col-lg-12'>";
+	$breadcrumb .="                    <ul class='breadcrumb'>";
+	$breadcrumbs = array_filter(explode('/', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)));
+	$breadcrumb .= "<li><i class='fa fa-home'></i><a href='" . $root_domain . "' title='Home Page'></a></li>";
+
+	foreach ($breadcrumbs as $crumb) {
+		$link = ucwords(str_replace(array(".php","-","_"), array(""," "," "), $crumb));
+		$root_domain .=  "/" . $crumb . "/";
+		$breadcrumb .= "<li class='active'><a href='". $root_domain ."'>" . $link . "</a></li>";
+	}
+		
+	$breadcrumb .="                    </ul>";
+	$breadcrumb .="                 </div>";
+	$breadcrumb .="              </div>";
+	$breadcrumb .="           </div>";
+	$breadcrumb .="        </section>";
+
+	echo $breadcrumb;
+?>
